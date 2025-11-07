@@ -17,7 +17,7 @@
 #import <libkern/OSAtomic.h>
 
 
-static dispatch_queue_t YYLabelGetReleaseQueue() {
+static dispatch_queue_t YYLabelGetReleaseQueue(void) {
     return dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0);
 }
 

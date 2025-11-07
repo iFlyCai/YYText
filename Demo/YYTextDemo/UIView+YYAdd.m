@@ -139,7 +139,7 @@
 @end
 
 
-double YYDeviceSystemVersion() {
+double YYDeviceSystemVersion(void) {
     static double version;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -148,7 +148,7 @@ double YYDeviceSystemVersion() {
     return version;
 }
 
-CGSize YYDeviceScreenSize() {
+CGSize YYDeviceScreenSize(void) {
     static CGSize size;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
