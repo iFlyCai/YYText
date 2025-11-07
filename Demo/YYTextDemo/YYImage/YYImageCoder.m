@@ -1437,7 +1437,7 @@ fail:
 
 #else
 
-BOOL YYImageWebPAvailable() {
+BOOL YYImageWebPAvailable(void) {
     return NO;
 }
 
