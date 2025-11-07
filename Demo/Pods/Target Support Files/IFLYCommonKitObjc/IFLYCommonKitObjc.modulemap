@@ -1,0 +1,6 @@
+framework module IFLYCommonKitObjc {
+  umbrella header "IFLYCommonKitObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}

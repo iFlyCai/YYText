@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
   s.source_files = 'YYText/**/*.{h,m}'
-  s.public_header_files = 'YYText/**/*.{h}'
-
+  s.public_header_files = 'YYTextls/**/*.{h}'
+  s.dependency 'IFLYCommonKitObjc'
   s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
 end

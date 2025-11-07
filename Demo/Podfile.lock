@@ -1,0 +1,20 @@
+PODS:
+  - IFLYCommonKitObjc (0.0.3):
+    - IFLYCommonKitObjc/IFLYFoundation (= 0.0.3)
+    - IFLYCommonKitObjc/IFLYUIKit (= 0.0.3)
+  - IFLYCommonKitObjc/IFLYFoundation (0.0.3)
+  - IFLYCommonKitObjc/IFLYUIKit (0.0.3)
+
+DEPENDENCIES:
+  - IFLYCommonKitObjc
+
+SPEC REPOS:
+  https://github.com/iFlyCai/IFLYSpecs.git:
+    - IFLYCommonKitObjc
+
+SPEC CHECKSUMS:
+  IFLYCommonKitObjc: ee43d72a8802f8e043882c9e5e92c36197c0f852
+
+PODFILE CHECKSUM: 440ad1818a953666751056e8da9e493793894706
+
+COCOAPODS: 1.16.2

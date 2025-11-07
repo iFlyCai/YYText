@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004045C0B06B15E99E5D3B9B04584B98 /* UIApplication+IFLYCommonKitObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B73E52F2B318B525C8585259DA7AA15 /* UIApplication+IFLYCommonKitObjc.m */; };
+		1AA3D2C053751CD6E390CD25F8BB3DF3 /* Pods-YYTextDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F32FD09F2DD13DD5F2FF78DEB87145 /* Pods-YYTextDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47FE20EFAADB8670D03D136009E335EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		682C609E75E42ED03BA8151B90634C28 /* NSString+IFLYCommonKitObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D95A685DC19EAC88D7DCE47708160D5 /* NSString+IFLYCommonKitObjc.m */; };
+		6C327535A4D6EAEE1C233A9DE29E808D /* IFLYCommonKitObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E112E1E77B0E9D5B1BFB900E6615E0CC /* IFLYCommonKitObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C5F343A9A93560BB8C6117C38F44022 /* Pods-YYTextDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C83B247BF5F6AD2092381DE268D6A65B /* Pods-YYTextDemo-dummy.m */; };
+		7A5C4F42FD731C18DC7F55C7AB1D3863 /* IFLYCommonKitObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8250FA27819002E4CE09A9B6ED0B3C11 /* IFLYCommonKitObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B076CB808235216C65E636BB601650 /* NSString+IFLYCommonKitObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB863DD0F66E5FAD55D2BF3DFEB6D72 /* NSString+IFLYCommonKitObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C60FAD7890CB5359BD54CEDDEE34C378 /* UIApplication+IFLYCommonKitObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4AE329CBD907289E36C0FB695AE3B3 /* UIApplication+IFLYCommonKitObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6BFC247312BBCD0747C3FA9D8FF6E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		E36C56457C0B5B2CB1F423D556F1F8B4 /* IFLYCommonKitObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841840C86FF5A4CD3E1020C6B5E2EBAC /* IFLYCommonKitObjc-dummy.m */; };
+		E8E3555328D3E1156A0611FF3AFD5616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93990911C1744D239FC182DD831F264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D9FA51D7DC8354E43592C88572A216;
+			remoteInfo = IFLYCommonKitObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B73E52F2B318B525C8585259DA7AA15 /* UIApplication+IFLYCommonKitObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+IFLYCommonKitObjc.m"; path = "IFLYCommonKitObjc/Classes/IFLYUIKit/UIApplication+IFLYCommonKitObjc.m"; sourceTree = "<group>"; };
+		0D95A685DC19EAC88D7DCE47708160D5 /* NSString+IFLYCommonKitObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IFLYCommonKitObjc.m"; path = "IFLYCommonKitObjc/Classes/IFLYFoundation/NSString+IFLYCommonKitObjc.m"; sourceTree = "<group>"; };
+		1C092839FDCB371827949E21917B8F6D /* IFLYCommonKitObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFLYCommonKitObjc.release.xcconfig; sourceTree = "<group>"; };
+		1FA6BF3D6B24E11F628AD7FDE14C19E0 /* Pods-YYTextDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYTextDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		31B6A7319734282424813530B99A0C2D /* Pods-YYTextDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYTextDemo-Info.plist"; sourceTree = "<group>"; };
+		7C6C79CE383F2E1AE26433821E8C4127 /* Pods-YYTextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYTextDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8250FA27819002E4CE09A9B6ED0B3C11 /* IFLYCommonKitObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFLYCommonKitObjc-umbrella.h"; sourceTree = "<group>"; };
+		841840C86FF5A4CD3E1020C6B5E2EBAC /* IFLYCommonKitObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFLYCommonKitObjc-dummy.m"; sourceTree = "<group>"; };
+		8D4AE329CBD907289E36C0FB695AE3B3 /* UIApplication+IFLYCommonKitObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+IFLYCommonKitObjc.h"; path = "IFLYCommonKitObjc/Classes/IFLYUIKit/UIApplication+IFLYCommonKitObjc.h"; sourceTree = "<group>"; };
+		97EF6571B87C2D3B8E355D2878B59301 /* IFLYCommonKitObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFLYCommonKitObjc-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E580BD957D8DD902601F092A8BFC4F0 /* Pods-YYTextDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYTextDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A8F32FD09F2DD13DD5F2FF78DEB87145 /* Pods-YYTextDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYTextDemo-umbrella.h"; sourceTree = "<group>"; };
+		BD7526691AB14864E7DCA95E49D0CD65 /* Pods-YYTextDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YYTextDemo"; path = Pods_YYTextDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB863DD0F66E5FAD55D2BF3DFEB6D72 /* NSString+IFLYCommonKitObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+IFLYCommonKitObjc.h"; path = "IFLYCommonKitObjc/Classes/IFLYFoundation/NSString+IFLYCommonKitObjc.h"; sourceTree = "<group>"; };
+		C83B247BF5F6AD2092381DE268D6A65B /* Pods-YYTextDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYTextDemo-dummy.m"; sourceTree = "<group>"; };
+		CFC3D2E61FF3B5A4351C664C09311562 /* Pods-YYTextDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYTextDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D59218608F35C889DF2D7CA09E777FE2 /* IFLYCommonKitObjc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFLYCommonKitObjc; path = IFLYCommonKitObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E017A72A606C91D401F665BB5DFA99FF /* IFLYCommonKitObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFLYCommonKitObjc-prefix.pch"; sourceTree = "<group>"; };
+		E112E1E77B0E9D5B1BFB900E6615E0CC /* IFLYCommonKitObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFLYCommonKitObjc.h; path = IFLYCommonKitObjc/Classes/IFLYCommonKitObjc.h; sourceTree = "<group>"; };
+		EC2038DB5A3C3E24B8FD58A8667DDF8E /* IFLYCommonKitObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFLYCommonKitObjc.modulemap; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE7226BAB8AF2B008F66A40925641137 /* IFLYCommonKitObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFLYCommonKitObjc.debug.xcconfig; sourceTree = "<group>"; };
+		F8412AB334EA1A2CB217CABC577EF0E5 /* Pods-YYTextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYTextDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FAF5FE264DEFD7038D5CF0D33BE72369 /* Pods-YYTextDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYTextDemo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06C4DD7566D50FACFDD2AC63A11DC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FE20EFAADB8670D03D136009E335EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10CE7ECD7476028568EE2FA5B4E865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BFC247312BBCD0747C3FA9D8FF6E2F /* Foundation.framework in Frameworks */,
+				E8E3555328D3E1156A0611FF3AFD5616 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053F36CD2C49AAC7BAFE66915A45FB1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2038DB5A3C3E24B8FD58A8667DDF8E /* IFLYCommonKitObjc.modulemap */,
+				841840C86FF5A4CD3E1020C6B5E2EBAC /* IFLYCommonKitObjc-dummy.m */,
+				97EF6571B87C2D3B8E355D2878B59301 /* IFLYCommonKitObjc-Info.plist */,
+				E017A72A606C91D401F665BB5DFA99FF /* IFLYCommonKitObjc-prefix.pch */,
+				8250FA27819002E4CE09A9B6ED0B3C11 /* IFLYCommonKitObjc-umbrella.h */,
+				EE7226BAB8AF2B008F66A40925641137 /* IFLYCommonKitObjc.debug.xcconfig */,
+				1C092839FDCB371827949E21917B8F6D /* IFLYCommonKitObjc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IFLYCommonKitObjc";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5401697483CE3E7294114F1FAC6BE6 /* IFLYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IFLYFoundation;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1ECDAED828B4A35ADF5D7FB53FA94103 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7851FB75E9BEFE0A236D5A9F17D036B2 /* Pods-YYTextDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		565377E54EF7138970C9A9F49568E06E /* IFLYUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IFLYUIKit;
+			sourceTree = "<group>";
+		};
+		6A39CC037538675C8ED0AB323A0792DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE559AC77C1603CA86CCB57277A22544 /* IFLYCommonKitObjc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7851FB75E9BEFE0A236D5A9F17D036B2 /* Pods-YYTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5FE264DEFD7038D5CF0D33BE72369 /* Pods-YYTextDemo.modulemap */,
+				CFC3D2E61FF3B5A4351C664C09311562 /* Pods-YYTextDemo-acknowledgements.markdown */,
+				1FA6BF3D6B24E11F628AD7FDE14C19E0 /* Pods-YYTextDemo-acknowledgements.plist */,
+				C83B247BF5F6AD2092381DE268D6A65B /* Pods-YYTextDemo-dummy.m */,
+				9E580BD957D8DD902601F092A8BFC4F0 /* Pods-YYTextDemo-frameworks.sh */,
+				31B6A7319734282424813530B99A0C2D /* Pods-YYTextDemo-Info.plist */,
+				A8F32FD09F2DD13DD5F2FF78DEB87145 /* Pods-YYTextDemo-umbrella.h */,
+				7C6C79CE383F2E1AE26433821E8C4127 /* Pods-YYTextDemo.debug.xcconfig */,
+				F8412AB334EA1A2CB217CABC577EF0E5 /* Pods-YYTextDemo.release.xcconfig */,
+			);
+			name = "Pods-YYTextDemo";
+			path = "Target Support Files/Pods-YYTextDemo";
+			sourceTree = "<group>";
+		};
+		8D5296B78D582F0EAED012B6EDD7D69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59218608F35C889DF2D7CA09E777FE2 /* IFLYCommonKitObjc */,
+				BD7526691AB14864E7DCA95E49D0CD65 /* Pods-YYTextDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6A39CC037538675C8ED0AB323A0792DE /* Pods */,
+				8D5296B78D582F0EAED012B6EDD7D69D /* Products */,
+				1ECDAED828B4A35ADF5D7FB53FA94103 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FE559AC77C1603CA86CCB57277A22544 /* IFLYCommonKitObjc */ = {
+			isa = PBXGroup;
+			children = (
+				E112E1E77B0E9D5B1BFB900E6615E0CC /* IFLYCommonKitObjc.h */,
+				BFB863DD0F66E5FAD55D2BF3DFEB6D72 /* NSString+IFLYCommonKitObjc.h */,
+				0D95A685DC19EAC88D7DCE47708160D5 /* NSString+IFLYCommonKitObjc.m */,
+				8D4AE329CBD907289E36C0FB695AE3B3 /* UIApplication+IFLYCommonKitObjc.h */,
+				0B73E52F2B318B525C8585259DA7AA15 /* UIApplication+IFLYCommonKitObjc.m */,
+				1A5401697483CE3E7294114F1FAC6BE6 /* IFLYFoundation */,
+				565377E54EF7138970C9A9F49568E06E /* IFLYUIKit */,
+				053F36CD2C49AAC7BAFE66915A45FB1E /* Support Files */,
+			);
+			name = IFLYCommonKitObjc;
+			path = IFLYCommonKitObjc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23734582B629FF0D4A746CC3813D30BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C327535A4D6EAEE1C233A9DE29E808D /* IFLYCommonKitObjc.h in Headers */,
+				7A5C4F42FD731C18DC7F55C7AB1D3863 /* IFLYCommonKitObjc-umbrella.h in Headers */,
+				82B076CB808235216C65E636BB601650 /* NSString+IFLYCommonKitObjc.h in Headers */,
+				C60FAD7890CB5359BD54CEDDEE34C378 /* UIApplication+IFLYCommonKitObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341F7AB87E53B1C259E67C7E3432B85A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA3D2C053751CD6E390CD25F8BB3DF3 /* Pods-YYTextDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34D7A840C985428D4E22037AF0F66BE7 /* Pods-YYTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350DB957678EEEF6B204D942D8F2101A /* Build configuration list for PBXNativeTarget "Pods-YYTextDemo" */;
+			buildPhases = (
+				341F7AB87E53B1C259E67C7E3432B85A /* Headers */,
+				DAA2CD7049459FBBC16FE4FDE550BF9F /* Sources */,
+				B06C4DD7566D50FACFDD2AC63A11DC83 /* Frameworks */,
+				1A6D1EEF7A4C439B144C0998A15CB7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F071E5AD3F7D2163C311370EA09CCDB /* PBXTargetDependency */,
+			);
+			name = "Pods-YYTextDemo";
+			productName = Pods_YYTextDemo;
+			productReference = BD7526691AB14864E7DCA95E49D0CD65 /* Pods-YYTextDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2D9FA51D7DC8354E43592C88572A216 /* IFLYCommonKitObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653F0361A740BDE4F17F6B9FAE9B260F /* Build configuration list for PBXNativeTarget "IFLYCommonKitObjc" */;
+			buildPhases = (
+				23734582B629FF0D4A746CC3813D30BA /* Headers */,
+				C523746ED10ED0090DA021510DC0C041 /* Sources */,
+				CF10CE7ECD7476028568EE2FA5B4E865 /* Frameworks */,
+				385404C98CBDCFEC779A092F71E55E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFLYCommonKitObjc;
+			productName = IFLYCommonKitObjc;
+			productReference = D59218608F35C889DF2D7CA09E777FE2 /* IFLYCommonKitObjc */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D5296B78D582F0EAED012B6EDD7D69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D9FA51D7DC8354E43592C88572A216 /* IFLYCommonKitObjc */,
+				34D7A840C985428D4E22037AF0F66BE7 /* Pods-YYTextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6D1EEF7A4C439B144C0998A15CB7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385404C98CBDCFEC779A092F71E55E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C523746ED10ED0090DA021510DC0C041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36C56457C0B5B2CB1F423D556F1F8B4 /* IFLYCommonKitObjc-dummy.m in Sources */,
+				682C609E75E42ED03BA8151B90634C28 /* NSString+IFLYCommonKitObjc.m in Sources */,
+				004045C0B06B15E99E5D3B9B04584B98 /* UIApplication+IFLYCommonKitObjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2CD7049459FBBC16FE4FDE550BF9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5F343A9A93560BB8C6117C38F44022 /* Pods-YYTextDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F071E5AD3F7D2163C311370EA09CCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IFLYCommonKitObjc;
+			target = B2D9FA51D7DC8354E43592C88572A216 /* IFLYCommonKitObjc */;
+			targetProxy = A93990911C1744D239FC182DD831F264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A451A89EBC6FF266D48B7FC254D31A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8412AB334EA1A2CB217CABC577EF0E5 /* Pods-YYTextDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YYTextDemo/Pods-YYTextDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYTextDemo/Pods-YYTextDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB358A21A457C0B08A506C1CC1CA31B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7226BAB8AF2B008F66A40925641137 /* IFLYCommonKitObjc.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/IFLYCommonKitObjc/IFLYCommonKitObjc-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/IFLYCommonKitObjc/IFLYCommonKitObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IFLYCommonKitObjc/IFLYCommonKitObjc.modulemap";
+				PRODUCT_MODULE_NAME = IFLYCommonKitObjc;
+				PRODUCT_NAME = IFLYCommonKitObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6C1D2C2B4D36D3F9B3E4410A34ED46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C092839FDCB371827949E21917B8F6D /* IFLYCommonKitObjc.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/IFLYCommonKitObjc/IFLYCommonKitObjc-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/IFLYCommonKitObjc/IFLYCommonKitObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IFLYCommonKitObjc/IFLYCommonKitObjc.modulemap";
+				PRODUCT_MODULE_NAME = IFLYCommonKitObjc;
+				PRODUCT_NAME = IFLYCommonKitObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE4396D6958E18A23DFE8B399823D1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6C79CE383F2E1AE26433821E8C4127 /* Pods-YYTextDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YYTextDemo/Pods-YYTextDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYTextDemo/Pods-YYTextDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350DB957678EEEF6B204D942D8F2101A /* Build configuration list for PBXNativeTarget "Pods-YYTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4396D6958E18A23DFE8B399823D1B6 /* Debug */,
+				A451A89EBC6FF266D48B7FC254D31A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653F0361A740BDE4F17F6B9FAE9B260F /* Build configuration list for PBXNativeTarget "IFLYCommonKitObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB358A21A457C0B08A506C1CC1CA31B4 /* Debug */,
+				E6C1D2C2B4D36D3F9B3E4410A34ED46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
