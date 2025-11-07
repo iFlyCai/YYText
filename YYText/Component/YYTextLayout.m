@@ -941,7 +941,8 @@ fail:
 
 
 - (void)encodeWithCoder:(NSCoder *)aCoder {
-    NSData *textData = [YYTextArchiver archivedDataWithRootObject:_text];
+    NSError * error = nil;
+    NSData * textData = [YYTextArchiver archivedDataWithRootObject:_text requiringSecureCoding:NO error:&error];
     [aCoder encodeObject:textData forKey:@"text"];
     [aCoder encodeObject:_container forKey:@"container"];
     [aCoder encodeObject:[NSValue valueWithRange:_range] forKey:@"range"];
@@ -949,7 +950,14 @@ fail:
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     NSData *textData = [aDecoder decodeObjectForKey:@"text"];
-    NSAttributedString *text = [YYTextUnarchiver unarchiveObjectWithData:textData];
+    NSError * error = nil;
+    NSAttributedString *text = [NSKeyedUnarchiver unarchivedObjectOfClass:[NSAttributedString class]
+                                                                 fromData:textData
+                                                                    error:&error];
+    if (error) {
+        NSLog(@"Failed to unarchive NSAttributedString: %@", error);
+        text = nil;
+    }
     YYTextContainer *container = [aDecoder decodeObjectForKey:@"container"];
     NSRange range = ((NSValue *)[aDecoder decodeObjectForKey:@"range"]).rangeValue;
     self = [self.class layoutWithContainer:container text:text range:range];
