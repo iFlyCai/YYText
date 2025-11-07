@@ -289,7 +289,9 @@ CGSize YYTextScreenSize(void) {
     return size;
 }
 
-
+/// 判断当前代码运行环境是否是 iOS App Extension（比如 Today Widget、键盘扩展、分享扩展等），因为在 App Extension 中：
+/// 不能调用 [UIApplication sharedApplication]
+/// 不能直接访问某些应用级别的 API，否则会导致 App 被拒或崩溃
 BOOL YYTextIsAppExtension(void) {
     static BOOL isAppExtension = NO;
     static dispatch_once_t onceToken;

@@ -13,6 +13,7 @@
 #import "YYTextKeyboardManager.h"
 #import "YYTextUtilities.h"
 #import "UIView+YYText.h"
+#import <IFLYCommonKitObjc/IFLYCommonKitObjc.h>
 
 
 @implementation YYTextEffectWindow
