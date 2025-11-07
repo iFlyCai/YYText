@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYText'
   s.summary      = 'Powerful text framework for iOS to display and edit rich text.'
-  s.version      = '1.1.1'
+  s.version      = '1.1.2'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'YYText/**/*.{h,m}'
   s.public_header_files = 'YYText/**/*.{h}'
-  
+  s.d = 'YYText/**/*.{h}'
+
   s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
 end

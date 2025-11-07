@@ -58,9 +58,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    if ([self respondsToSelector:@selector(setAutomaticallyAdjustsScrollViewInsets:)]) {
-        self.automaticallyAdjustsScrollViewInsets = NO;
-    }
     
     NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:@"sjobs@apple.com, apple@apple.com, banana@banana.com, pear@pear.com "];
     text.yy_font = [UIFont systemFontOfSize:17];
